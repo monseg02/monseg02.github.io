@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Mortgage Calculator</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="ENTER DESCRIPTION HERE">
+   <meta name="author" content="ENTER NAME HERE">
+   <script src="HW6.js" defer></script>
+   <link href="HW6.css" rel="stylesheet">
+</head> 
+
+<body>
+<div class="wholeBody">
+<h2> Mortgage Calculator </h2>
+<form>
+<div class="inputIn">
+	<p>
+		<label> Principal: </label>
+		<input id="principalNum" name = "principal" type="text" size="30">
+	</p>
+	<p>
+		<label> Yearly Interest Rate: </label>
+		<input id="yearlyIntRate" name = "yearly interest rate" type="text" size="30">
+	</p>
+	<p>
+		<label> Loan term in months: </label>
+		<input id="loanTerm" name="loan term" type="text" size="30">
+	</p>
+</div>
+	<p>
+		<input type="button" value="Calculate" onclick="calc()">
+		<input type="reset" value="Clear">
+	</p>
+	<p id="output">
+		<div id="output1">Monthly Payment: </div>
+		<div id="output2">Sum of all Payments: </div>
+		<div id="output3">Total Interest: </div>
+	</p>
+</form>
+</div>
+</body>
+</html>

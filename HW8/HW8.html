@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Random Images</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="ENTER DESCRIPTION HERE">
+   <meta name="author" content="ENTER NAME HERE">
+   <script src="HW8.js" defer></script>
+   <link href="HW8.css" rel="stylesheet">
+</head> 
+
+<body onload="changeImg()">
+
+<form action>
+	<div>
+	<p>
+		<img class="img1" id="galaxyCluster" src="GalaxyCluster.jpeg" alt="Galaxy Cluster Image" width="640" height="480">
+		<img class="img2" id="M104" src="M104.jpeg" alt="M104 Image" width="640" height="480">
+		<img class="img3" id="NGC1300" src="NGC1300.jpeg" alt="NGC1300 Image" width="640" height="480">
+		<img class="img4" id="InteractingGalaxies" src="InteractingGalaxies.jpeg" alt="Interacting Galaxies Image" width="640" height="480"> 
+		<img class="img5" id="M51" src="M51.jpeg" alt="M51 Image" width="640" height="480">
+		<img class="img6" id="NGC6217" src="NGC6217.jpeg" alt="NGC6217 Image" width="640" height="480">
+	</p>
+	<p>
+	<p class="cap1" id="caption1">Galaxy Cluster</p>
+	<p class="cap2" id="caption2">M 104</p>
+	<p class="cap3" id="caption3">NGC 13000</p>
+	<p class="cap4" id="caption4">Interacting Galaxies</p>
+	<p class="cap5" id="caption5">M 51</p>
+	<p class="cap6" id="caption6">NGC 6217</p>
+  	</p>
+  	</div>	
+	<p class="btn">
+		<input type="button" value="Change Image" onclick="changeImg()">
+	</p>
+</form>
+
+</body>
+</html>

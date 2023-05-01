@@ -1,0 +1,29 @@
+h1 {
+	text-align:center;
+	font-family:arial;
+	border:3px solid;
+	padding:10px;
+	color:#b36200;
+}
+b {
+	color:#b36200;
+}
+
+input[type=text]{
+	width:100%;
+	padding:8px 8px;
+	margin:8px 0;
+	box-sizing: border-box;
+	background-color:#f5f5dc;
+}
+textarea{
+	background-color:#f5f5dc;
+}
+
+td {
+	font-weight:normal;
+}
+body {
+	background-color:#faebd7;
+	font-family:arial;
+}

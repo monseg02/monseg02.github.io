@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Self-Grading Quiz</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="ENTER DESCRIPTION HERE">
+	<meta name="author" content="ENTER NAME HERE">
+	<script src="HW10.js" defer></script>
+	
+</head>
+
+<body>
+	<form method="POST" action="./HW10.php" name="regForm" onsubmit="return validate()">
+		<p>
+			1. "URL" stands for "Universal Reference Link."<br>
+			<label>True<input name="connection1" type="radio" value="True" id="t1"></label>
+			<label>False<input name="connection1" type="radio" value="False" id="f1"></label>
+		</p>
+		<p>
+			2. An Apple MacBook is an example of a Linux system.<br>
+			<label>True<input name="connection2" type="radio" value="True" id="t2"></label>
+			<label>False<input name="connection2" type="radio" value="False" id="f2"></label>
+		</p>
+		<p>
+			3. Which of these do NOT contribute to packet delay in a packet switching network?<br>
+			<input name="attraction1[]" type="checkbox" value="processing delay at a router" id="a3"><label>Processing delay at a router</label><br>
+			<input name="attraction1[]" type="checkbox" value="cpu workload on a client" id="b3"><label>CPU workload on a client</label><br>
+			<input name="attraction1[]" type="checkbox" value="transmission delay along a communications link" id="c3"><label>Transmission delay along a communications link</label><br>
+			<input name="attraction1[]" type="checkbox" value="propagation delay" id="d3"><label>Propagation delay</label>
+		</p>
+		<p>
+			4. This Internet layer is responsible for creating the packets that move across the network.<br>
+			<input name="attraction2[]" type="checkbox" value="physical" id="a4"><label>Propagation delay</label><br>
+			<input name="attraction2[]" type="checkbox" value="datalink" id="b4"><label>Datalink</label><br>
+			<input name="attraction2[]" type="checkbox" value="network" id="c4"><label>Network</label><br>
+			<input name="attraction2[]" type="checkbox" value="transport" id="d4"><label>Transport</label>
+		</p>
+		<p>
+			5. <input name="text5" type="text" id="q5"> is a networking protocol that runs over TCP/IP, and governs communication between web browsers and web servers.
+		</p>
+		<p>
+			6. A small icon displayed in a browser table that identifies a website is called a <input name="text6" type="text" id="q6">
+		</p>
+		<p>
+			<input type="submit" value="Grade" onclick="validate()">
+			<input type="reset" value="Reset">
+
+
+	</form>	
+
+</body>
+</html>
