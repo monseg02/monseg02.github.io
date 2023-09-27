@@ -1,8 +1,8 @@
 <html>
 <head>
    <title>Online Signup Sheet</title>
-   <link href="HW12.css" rel="stylesheet">
-   <script src="HW12.js" defer></script>
+   <link href="Demo12.css" rel="stylesheet">
+   <script src="Demo12.js" defer></script>
 </head>
 <body onload="disableBox()">
 <form method="POST" action= "<?php echo $_SERVER['PHP_SELF']; ?>">
