@@ -3,9 +3,9 @@
     display:table;
     clear:both; 
 }
-.column {
+/*.column {
     float:left;
     width:50%;
     padding:10px;
-    height:300px; /*Should be removed. Only for demonstration*/
-}
+    height:300px; Should be removed. Only for demonstration
+}*/
